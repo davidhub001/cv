@@ -10,23 +10,87 @@
     <h2>ANDRIAMASINAVALONA Davidson</h2>
     <img class="za" src="zaodavid.png">
     <div class="contact-gauche">
-        <p class="contact">Contact</p>
+        <p class="c">CONTACT</p>
         <div>
-            <img class="logo" src="email.png">
+            <img class="logo" src="logo/email.png">
             <a href="mailto:andrisondavidmail@gmail.com">andrisondavidmail@gmail.com</a>
         </div>
         <div>
-            <img class="logo" src="phone.png"><a href="#">034 60 131 54 / 033 90 656 71</a>
+            <img class="logo" src="logo/phone.png"><a href="#">034 60 131 54 / 033 90 656 71</a>
         </div><div>
-            <img class="logo" src="adresse.png"><a href="#">Lot 181 A marobiby itaosy
+            <img class="logo" src="logo/adresse.png"><a href="#">Lot 181 A Marobiby Itaosy
             </a>
         </div>
+        <p class="c"> technologies</p>
+        <div>
+            <div>
+                <p class="b">Langage de programation</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS - Sass</li>
+                        <li>JS</li>
+                        <li>JQuery</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                <p class="b">cms</p>
+                <ul>
+                    <li>WordPress</li>
+                    <li>SPIP&THELIA</li>
+                </ul>
+                <p class="b">framework</p>
+                <ul>
+                    <li>Symfony</li>
+                    <li>Codeigniter</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <p class="b">Base de données</p>
+                <ul>
+                    <li>MySql</li>
+                </ul>
+            </div>
+        </div>
+        
+       
     </div>
     <div class="contenu">
-        <p>Apropos de moi</p>
-        <p>Experience profesionnelle</p>
-        <p>Diplôme</p>
-        <p>Language</p>
+        <p>Profil</p>
+            <div>
+                Récent diplômé d'une licence en informatique base de données et génie
+logiciel, ayant 5 ans d'expérience dans un poste de Développeur. Passionné
+du développement informatique, je souhaiterais mettre mes compétences au
+service de votre projet.
+            </div>
+        <p>Education</p>
+        <div>
+            <div>CENTRE NATIONAL DE TÉLÉ-ENSEIGNEMENT DE MADAGASCAR
+                (CNTEMAD)</div></br>
+            <div>2016-2017: Licence en Informatique- Base de données et Génie Logiciel</div>
+        </div>
+        <p>Experiences</p>
+        <div>
+            Développeur Informatique <br/> 2017 - 2020
+            CENTIC-MADA,Antananarivo
+            <ul>
+                <li>Création projet avec Symfony3 et Codeigniter</li>
+                <li>Conception base de donnés</li>
+            </ul>
+            <br/>
+            Développeur web <br/> 2018 - 2019
+            MIANJAIKA Communication, Antananarivo
+            <ul>
+                <li>Création site avec WordPress</li>
+                <li>Maintenance site web</li>
+                <li>Intégration responsive design</li>
+                <li>Référencement naturel</li>
+            </ul>
+            <br/>
+            Développeur web <br/> 2021
+            PROPITECH, Antananarivo
+            <ul>
+                <li>Développement plugin avec SPIP & THELIA</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
@@ -56,6 +120,7 @@
     position: absolute;
     top: 183px;
     left: 345px;
+    width: 50%;
 }
 p {
     background-color: #012f67;
@@ -73,24 +138,35 @@ img.logo {
 .contact-gauche {
     position: absolute;
     top: 340px;
+    text-align: center;
 }
-p.contact {
+p.c {
     all: initial;
     font-size: 25px;
     color: #012f67;
     font-family: monospace;
     font-weight: bold;
+    text-transform: uppercase;
+
 }
 a {
     text-decoration: none;
-    color: #00b5ea;
-    font-size: 21px;
+    color: #525050;
+    font-size: 15px;
     font-weight: bold;
     position: relative;
     top: -5px;
     left: 5px;
 }
 .contact-gauche > div {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+* {
+    font-family: monospace;
+    font-weight: bold;
+}
+p.b {
+    font-size: 16px;
 }
 </style>
