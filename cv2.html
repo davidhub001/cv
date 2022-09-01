@@ -9,7 +9,81 @@
 <body>
     <h2>ANDRIAMASINAVALONA Davidson</h2>
     <img class="za" src="zaodavid.png">
+    <h3 class="titre">Développeur</h3>
     <div class="contact-gauche">
+        <p class="c"> technologies</p>
+        <div>
+            <div>
+                <p class="b">Langage de programation</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS/Sass</li>
+                        <li>JS</li>
+                        <li>JQuery</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                <p class="b">CMS</p>
+                <ul>
+                    <li>WordPress</li>
+                    <li>SPIP&THELIA</li>
+                </ul>
+                <p class="b">Framework</p>
+                <ul>
+                    <li>Symfony</li>
+                    <li>Codeigniter</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <p class="b">Base de données</p>
+                <ul>
+                    <li>MySql</li>
+                </ul>
+                <p class="b">Outil de gestion de versions</p>
+                <ul>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+        
+       
+    </div>
+    <div class="contenu">
+        <p>Profil</p>
+            <div>
+                Âgé de 27 ans, récent diplômé d'une Licence en informatique base de données et génie logiciel, ayant 5 ans d'expérience dans un poste de développeur. Passionné du développement informatique, je souhaiterais mettre mes compétences au service de votre projet.
+            </div>
+        <p>Education</p>
+        <div>
+            <div>CENTRE NATIONAL DE TÉLÉ-ENSEIGNEMENT DE MADAGASCAR
+                (CNTEMAD)</div></br>
+            <div>2016-2017: Licence en Informatique- Base de données et Génie Logiciel</div>
+        </div>
+        <p>Experiences</p>
+        <div>
+            Développeur Informatique <br/> 2017-2020 :
+            CENTIC-MADA,Antananarivo
+            <ul>
+                <li>Création projet avec Symfony3 et Codeigniter</li>
+                <li>Conception base de donnés</li>
+            </ul>
+            <br/>
+            Développeur web <br/> 2018-2019 :
+            MIANJAIKA Communication, Antananarivo
+            <ul>
+                <li>Création site avec WordPress</li>
+                <li>Maintenance site web</li>
+                <li>Intégration responsive design</li>
+                <li>Référencement naturel(SEO)</li>
+            </ul>
+            <br/>
+            Développeur PHP <br/> 2021 :
+            PROPITECH, Antananarivo
+            <ul>
+                <li>Développement plugin avec SPIP & THELIA</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
         <p class="c">CONTACT</p>
         <div>
             <img class="logo" src="logo/email.png">
@@ -20,76 +94,6 @@
         </div><div>
             <img class="logo" src="logo/adresse.png"><a href="#">Lot 181 A Marobiby Itaosy
             </a>
-        </div>
-        <p class="c"> technologies</p>
-        <div>
-            <div>
-                <p class="b">Langage de programation</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS - Sass</li>
-                        <li>JS</li>
-                        <li>JQuery</li>
-                        <li>PHP</li>
-                        <li>SQL</li>
-                    </ul>
-                <p class="b">cms</p>
-                <ul>
-                    <li>WordPress</li>
-                    <li>SPIP&THELIA</li>
-                </ul>
-                <p class="b">framework</p>
-                <ul>
-                    <li>Symfony</li>
-                    <li>Codeigniter</li>
-                    <li>Bootstrap</li>
-                </ul>
-                <p class="b">Base de données</p>
-                <ul>
-                    <li>MySql</li>
-                </ul>
-            </div>
-        </div>
-        
-       
-    </div>
-    <div class="contenu">
-        <p>Profil</p>
-            <div>
-                Récent diplômé d'une licence en informatique base de données et génie
-logiciel, ayant 5 ans d'expérience dans un poste de Développeur. Passionné
-du développement informatique, je souhaiterais mettre mes compétences au
-service de votre projet.
-            </div>
-        <p>Education</p>
-        <div>
-            <div>CENTRE NATIONAL DE TÉLÉ-ENSEIGNEMENT DE MADAGASCAR
-                (CNTEMAD)</div></br>
-            <div>2016-2017: Licence en Informatique- Base de données et Génie Logiciel</div>
-        </div>
-        <p>Experiences</p>
-        <div>
-            Développeur Informatique <br/> 2017 - 2020
-            CENTIC-MADA,Antananarivo
-            <ul>
-                <li>Création projet avec Symfony3 et Codeigniter</li>
-                <li>Conception base de donnés</li>
-            </ul>
-            <br/>
-            Développeur web <br/> 2018 - 2019
-            MIANJAIKA Communication, Antananarivo
-            <ul>
-                <li>Création site avec WordPress</li>
-                <li>Maintenance site web</li>
-                <li>Intégration responsive design</li>
-                <li>Référencement naturel</li>
-            </ul>
-            <br/>
-            Développeur web <br/> 2021
-            PROPITECH, Antananarivo
-            <ul>
-                <li>Développement plugin avec SPIP & THELIA</li>
-            </ul>
         </div>
     </div>
 </body>
@@ -115,6 +119,8 @@ service de votre projet.
     position: absolute;
     left: 57px;
     top: 64px;
+    box-shadow: 0px 0px 0px 12px #00b5ea;
+
     }
     .contenu {
     position: absolute;
@@ -140,6 +146,9 @@ img.logo {
     top: 340px;
     text-align: center;
 }
+.footer > p.c {
+    color: #ffffff;
+}
 p.c {
     all: initial;
     font-size: 25px;
@@ -151,7 +160,7 @@ p.c {
 }
 a {
     text-decoration: none;
-    color: #525050;
+    color: #fffdfd;
     font-size: 15px;
     font-weight: bold;
     position: relative;
@@ -168,5 +177,15 @@ a {
 }
 p.b {
     font-size: 16px;
+}
+.footer {
+    position: absolute;
+    top: 1005px;
+}
+h3.titre {
+    position: absolute;
+    top: 130px;
+    left: 627px;
+    color: white;
 }
 </style>
