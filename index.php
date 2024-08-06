@@ -97,7 +97,7 @@
         </div>
 
         <div class="section">
-            <h2>Diplômes</h2>
+            <h2>Diplôme</h2>
             <p>Licence en Informatique - Génie Logiciel CNTEMAD, Antananarivo</p>
             <p>Année d'obtention : 2016-2017</p>
         </div>
